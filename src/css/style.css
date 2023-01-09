@@ -1,0 +1,54 @@
+button > *,
+.cl-action > * {
+  pointer-events: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+main {
+    border-radius: 15px;
+    background-color: #FFA07A;
+    padding: 1rem;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    padding: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 15px;
+}
+
+button:hover {
+    background-color: #F08080;
+    color: antiquewhite;
+    transition: 0.5s;
+}
+
+div {
+    margin-top: 5px;
+}
+
+input[type="number"] {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+}
+
+.cmp-section-title {
+    color: aliceblue;
+}
